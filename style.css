@@ -1,0 +1,398 @@
+.card-pagination {
+    width: 50%;
+    margin-top: 20px;
+    width: 100%;
+    height: 205px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .pagination-block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    padding-left: 0;
+  }
+  
+  .pagination-item,
+  .panigation-arrow-left,
+  .panigation-arrow-right {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ededed;
+    text-align: center;
+    line-height: 40px;
+    /* transition: 0.2s; */
+  }
+  
+  .panigation-arrow-left,
+  .panigation-arrow-right {
+    margin: 0px 15px 0px 15px;
+  }
+  
+  a.pagination-item {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  .pagination-item:hover {
+      background: #7e72f2;
+      color: #fff;
+    }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .active a, .active {
+    background: #7e72f2;
+    color: #fff;
+  }
+  
+  
+  
+/* card style */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
+
+.wrapper {
+  margin: 0 auto;
+  height: 393px;
+  position:relative;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.133);
+  border-radius: 8px;
+}
+
+.info-padding {
+  padding: 0px 24px 0px 24px;
+  
+}
+
+.item img {
+  object-fit: contain;
+  width: 293px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  background: #7e72f2;
+  text-align: center;
+  margin-bottom: 0px;
+  border-radius: 0px 0px 5px 5px;
+
+  position:absolute;
+  bottom: 0;
+}
+
+.add-button p {
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.item-stat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  height: 27px;
+}
+
+.item-rate {
+  width: 70px;
+  background: #7e72f2;
+  border-radius: 3px;
+}
+
+.star {
+  margin: 7px;
+  font-size: 16px;
+}
+
+.item-rate p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 0px;
+  color: #ffffff;
+}
+
+.item-price p {
+  font-size: 15px;
+  text-align: center;
+
+  line-height: 0px;
+}
+
+.item-info {
+  font-size: 13px;
+}
+
+.info {
+  font-size: 10px;
+  margin-bottom: 22px;
+}
+
+.button:hover {
+  background: #7464ff;
+  cursor: pointer;
+}
+
+/*  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;400&display=swap");
+
+* {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 250, 255);
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  min-width: 750px;
+
+  padding: 0px 15px 0px 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.name span {
+  font-size: 2rem;
+  color: rgb(94, 94, 255);
+  font-weight: bold;
+}
+
+.button-clear-all {
+  color: #fff;
+  background: rgb(94, 94, 255);
+  border-radius: 8px;
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border: none;
+  transition: 0.2s ease-in;
+}
+
+.button-cart {
+  color: #fff;
+  background: rgb(94, 94, 255);
+  border-radius: 8px;
+  width: 160px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  transition: 0.3s ease-in;
+}
+
+.button:hover {
+  background: rgb(139, 139, 255);
+}
+
+.bi-cart {
+  font-size: 1.2rem;
+}
+
+.store {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+}
+
+.sidebar-main {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.main {
+  width: 80%;
+  padding-left: 25px;
+  height: 100vh;
+}
+
+.search {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  border: none;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.items {
+  margin-top: 20px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  
+  grid-gap: 20px;
+
+
+  
+}
+
+
+
+
+.side-filter {
+  padding: 0px 20px;
+}
+
+.slider-name {
+  padding: 15px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slider-rating {
+  padding-bottom: 20px;
+}
+
+.category {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 10px;
+}
+
+.brand {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 10px;
+}
+
+.category-name {
+  padding: 15px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.category-item {
+  display: flex;
+}
+
+.item-name {
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.brand-name {
+  padding: 15px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.brand-item {
+  display: flex;
+}
+
+.brand-item-name {
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.card-img {
+  margin-top: 18px;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px 12px 0px;
+}
+
+.description span {
+  font-size: 13px;
+  line-height: 1rem;
+  display: block;
+  margin-bottom: 5px;
+  height: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.item-family span {
+  font-size: 12px;
+}
+.rating span {
+  display: block;
+}
+.rating {
+  background: rgb(94, 94, 255);
+  color: #fff;
+  width: 70px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 5px;
+}
+
+.item-add-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border-radius: 0px 0px 10px 10px;
+  height: 40px;
+  background: rgb(94, 94, 255);
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: 0.2s ease-in;
+  font-size: 0.9rem;
+}
+
